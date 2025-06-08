@@ -237,16 +237,17 @@ async function rollWeaponAttack(
             </div>
         </div>
         
-        <div style="background: rgba(255,255,255,0.1); border-radius: 8px; padding: 15px; margin: 15px 0;">
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; font-size: 14px;">
-                <div><strong>Weapon:</strong> ${weaponName || "Unnamed"}</div>
-                <div><strong>Trait:</strong> ${weaponTrait}</div>
-                <div><strong>Range:</strong> ${weaponRange}</div>
-                <div><strong>Damage Type:</strong> ${damageType}</div>
-                <div style="grid-column: 1 / -1;"><strong>Proficiency:</strong> ${maxProficiency}</div>
+        <div style="background: rgba(255,255,255,0.1); border-radius: 6px; padding: 10px; margin: 10px 0;">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 12px; line-height: 1.3;">
+                <div><strong>⚔️</strong> ${weaponName || "Unnamed"}</div>
+                <div><strong>📊</strong> ${weaponTrait}</div>
+                <div><strong>🎯</strong> ${weaponRange}</div>
+                <div><strong>💥</strong> ${damageType}</div>
+                <div><strong>⭐</strong> Prof: ${maxProficiency}</div>
+                <div><strong>🎲</strong> ${damageFormula || "Not Set"}</div>
                 ${
                   weaponFeature
-                    ? `<div style="grid-column: 1 / -1;"><strong>Features:</strong> ${weaponFeature}</div>`
+                    ? `<div style="grid-column: 1 / -1; font-size: 11px;"><strong>✨</strong> ${weaponFeature}</div>`
                     : ""
                 }
             </div>
@@ -330,74 +331,84 @@ async function rollWeaponAttack(
   new foundry.applications.api.DialogV2({
     window: {
       title: "⚔️ Primary Weapon Attack ⚔️",
-      width: 950,
+      width: 750,
       height: "auto",
       resizable: true,
     },
     content: `
         <style>
             .dh-container {
-                padding: 40px;
+                padding: 20px;
                 background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
-                border-radius: 20px;
+                border-radius: 15px;
                 color: #ecf0f1;
-                box-shadow: inset 0 0 50px rgba(0,0,0,0.5);
+                box-shadow: inset 0 0 30px rgba(0,0,0,0.5);
                 border: 2px solid #34495e;
-                min-width: 900px;
+                min-width: 700px;
                 max-width: 100%;
             }
             .dh-title {
                 text-align: center;
-                font-size: 28px;
+                font-size: 22px;
                 font-weight: bold;
-                margin-bottom: 35px;
+                margin-bottom: 20px;
                 background: linear-gradient(45deg, #f1c40f, #e67e22, #e74c3c);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 background-clip: text;
-                text-shadow: 0 0 20px rgba(241, 196, 15, 0.3);
-                letter-spacing: 2px;
+                text-shadow: 0 0 15px rgba(241, 196, 15, 0.3);
+                letter-spacing: 1px;
             }
             .weapon-info {
                 background: rgba(255,255,255,0.1);
-                border-radius: 15px;
-                padding: 20px;
-                margin-bottom: 25px;
+                border-radius: 10px;
+                padding: 15px;
+                margin-bottom: 15px;
                 border: 2px solid rgba(255,255,255,0.2);
             }
-            .weapon-stats {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-                gap: 15px;
-                margin-bottom: 15px;
+            .weapon-stats-compact {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
             }
-            .weapon-stat {
-                text-align: center;
-                padding: 10px;
+            .weapon-row {
+                display: grid;
+                grid-template-columns: auto 1fr auto 1fr;
+                gap: 10px;
+                align-items: center;
+                padding: 8px 12px;
                 background: rgba(0,0,0,0.3);
-                border-radius: 8px;
+                border-radius: 6px;
                 border: 1px solid rgba(255,255,255,0.1);
             }
-            .weapon-stat-label {
-                font-size: 12px;
+            .weapon-label {
+                font-size: 13px;
                 color: #bdc3c7;
-                text-transform: uppercase;
-                letter-spacing: 1px;
-                margin-bottom: 5px;
+                font-weight: bold;
+                min-width: fit-content;
             }
-            .weapon-stat-value {
-                font-size: 16px;
+            .weapon-value {
+                font-size: 14px;
                 font-weight: bold;
                 color: #ecf0f1;
+                text-align: left;
+            }
+            .weapon-feature {
+                grid-column: 1 / -1;
+                padding: 8px 12px;
+                background: rgba(0,0,0,0.3);
+                border-radius: 6px;
+                border: 1px solid rgba(255,255,255,0.1);
+                font-size: 13px;
             }
             .dh-dice-section {
                 background: rgba(255,255,255,0.08);
-                border-radius: 20px;
-                padding: 35px;
-                box-shadow: 0 12px 24px rgba(0,0,0,0.4);
+                border-radius: 12px;
+                padding: 20px;
+                box-shadow: 0 8px 16px rgba(0,0,0,0.4);
                 border: 2px solid rgba(255,255,255,0.15);
-                backdrop-filter: blur(15px);
-                margin-bottom: 25px;
+                backdrop-filter: blur(10px);
+                margin-bottom: 15px;
             }
             .hope-text {
                 color: #f1c40f;
@@ -446,11 +457,11 @@ async function rollWeaponAttack(
             }
             .modifiers-section {
                 background: rgba(255,255,255,0.05);
-                border-radius: 20px;
-                padding: 30px;
+                border-radius: 12px;
+                padding: 20px;
                 border: 2px solid rgba(255,255,255,0.12);
-                backdrop-filter: blur(10px);
-                box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+                backdrop-filter: blur(8px);
+                box-shadow: 0 6px 12px rgba(0,0,0,0.3);
             }
             .number-input {
                 background: linear-gradient(135deg, rgba(0,0,0,0.5), rgba(52,73,94,0.5));
@@ -531,41 +542,31 @@ async function rollWeaponAttack(
             } ATTACK ⚔️</div>
             
             <div class="weapon-info">
-                <div class="weapon-stats">
-                    <div class="weapon-stat">
-                        <div class="weapon-stat-label">Weapon</div>
-                        <div class="weapon-stat-value">${
-                          weaponName || "Unnamed"
-                        }</div>
+                <div class="weapon-stats-compact">
+                    <div class="weapon-row">
+                        <span class="weapon-label">⚔️ Weapon:</span>
+                        <span class="weapon-value">${weaponName || "Unnamed"}</span>
+                        <span class="weapon-label">📊 Trait:</span>
+                        <span class="weapon-value">${weaponTrait}</span>
                     </div>
-                    <div class="weapon-stat">
-                        <div class="weapon-stat-label">Trait</div>
-                        <div class="weapon-stat-value">${weaponTrait}</div>
+                    <div class="weapon-row">
+                        <span class="weapon-label">🎯 Range:</span>
+                        <span class="weapon-value">${weaponRange}</span>
+                        <span class="weapon-label">🎲 Damage:</span>
+                        <span class="weapon-value">${damageFormula || "Not Set"}</span>
                     </div>
-                    <div class="weapon-stat">
-                        <div class="weapon-stat-label">Range</div>
-                        <div class="weapon-stat-value">${weaponRange}</div>
+                    <div class="weapon-row">
+                        <span class="weapon-label">💥 Type:</span>
+                        <span class="weapon-value">${damageType}</span>
+                        <span class="weapon-label">⭐ Prof:</span>
+                        <span class="weapon-value">${maxProficiency}</span>
                     </div>
-                    <div class="weapon-stat">
-                        <div class="weapon-stat-label">Damage</div>
-                        <div class="weapon-stat-value">${
-                          damageFormula || "Not Set"
-                        }</div>
-                    </div>
-                    <div class="weapon-stat">
-                        <div class="weapon-stat-label">Type</div>
-                        <div class="weapon-stat-value">${damageType}</div>
-                    </div>
-                    <div class="weapon-stat">
-                        <div class="weapon-stat-label">Proficiency</div>
-                        <div class="weapon-stat-value">${maxProficiency}</div>
-                    </div>
+                    ${
+                      weaponFeature
+                        ? `<div class="weapon-feature"><span class="weapon-label">✨ Features:</span> ${weaponFeature}</div>`
+                        : ""
+                    }
                 </div>
-                ${
-                  weaponFeature
-                    ? `<div style="margin-top: 15px; padding: 10px; background: rgba(0,0,0,0.3); border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);"><strong>Features:</strong> ${weaponFeature}</div>`
-                    : ""
-                }
             </div>
             
             <div class="dh-dice-section">
