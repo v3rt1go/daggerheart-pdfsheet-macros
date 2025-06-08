@@ -1,0 +1,1941 @@
+{
+  "doc_0_Character Name": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Pronouns": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Level": {
+    "type": "Text",
+    "value": "1",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Background": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Subclass": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Heritage": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Mark Strength": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Mark Finesse": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Mark Instinct": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Mark Presence": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Mark Knowledge": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Mark Agility": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Armor Slot2": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Armor Slot3": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Armor Slot1": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Instinct Value": {
+    "type": "Text",
+    "value": "+0",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Agility Value": {
+    "type": "Text",
+    "value": "+0",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Strength Value": {
+    "type": "Text",
+    "value": "+0",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Finesse Value": {
+    "type": "Text",
+    "value": "+0",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Presence Value": {
+    "type": "Text",
+    "value": "+0",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Knowledge Value": {
+    "type": "Text",
+    "value": "+0",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Evasion": {
+    "type": "Text",
+    "value": "10",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Armor": {
+    "type": "Text",
+    "value": "0",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Armor Slot5": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Armor Slot6": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Armor Slot4": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Armor Slot7": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Armor Slot8": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Armor Slot9": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Armor Slot10": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Armor Slot11": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Armor Slot12": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Primary Weapon Burden2": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Primary Weapon Burden1": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Proficiency2": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Proficiency3": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Proficiency4": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Proficiency5": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Proficiency6": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Severe Theshold": {
+    "type": "Text",
+    "value": "10",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Major Theshold": {
+    "type": "Text",
+    "value": "5",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Primary Weapon Name": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Primary Weapon Trait": {
+    "type": "Choice (List/Combo)",
+    "value": "Agility",
+    "default": "",
+    "flags": 131072,
+    "max_length": null
+  },
+  "doc_0_Primary Weapon Range": {
+    "type": "Choice (List/Combo)",
+    "value": "Melee",
+    "default": "",
+    "flags": 131072,
+    "max_length": null
+  },
+  "doc_0_Primary Weapon Damage Dice": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Primary Weapon Damage Type": {
+    "type": "Choice (List/Combo)",
+    "value": "phy",
+    "default": "",
+    "flags": 131072,
+    "max_length": null
+  },
+  "doc_0_Primary Weapon Feature": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_0_HP1": {
+    "type": "Button/Checkbox",
+    "value": "/doc_0_HP1",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_HP2": {
+    "type": "Button/Checkbox",
+    "value": "/doc_0_HP2",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_HP3": {
+    "type": "Button/Checkbox",
+    "value": "/doc_0_HP3",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_HP4": {
+    "type": "Button/Checkbox",
+    "value": "/doc_0_HP4",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_HP5": {
+    "type": "Button/Checkbox",
+    "value": "/doc_0_HP5",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_HP6": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_HP7": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_HP8": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_HP9": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_HP10": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_HP11": {
+    "type": "Button/Checkbox",
+    "value": "/doc_0_HP11",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_HP12": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Stress1": {
+    "type": "Button/Checkbox",
+    "value": "/doc_0_Stress1",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Stress2": {
+    "type": "Button/Checkbox",
+    "value": "/doc_0_Stress2",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Stress3": {
+    "type": "Button/Checkbox",
+    "value": "/doc_0_Stress3",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Stress4": {
+    "type": "Button/Checkbox",
+    "value": "/doc_0_Stress4",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Stress5": {
+    "type": "Button/Checkbox",
+    "value": "/doc_0_Stress5",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Stress6": {
+    "type": "Button/Checkbox",
+    "value": "/doc_0_Stress6",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Stress7": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Stress8": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Stress9": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Stress10": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Stress11": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Stress12": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Secondary Weapon Trait": {
+    "type": "Choice (List/Combo)",
+    "value": "Agility",
+    "default": "",
+    "flags": 131072,
+    "max_length": null
+  },
+  "doc_0_Secondary Weapon Range": {
+    "type": "Choice (List/Combo)",
+    "value": "Melee",
+    "default": "",
+    "flags": 131072,
+    "max_length": null
+  },
+  "doc_0_Secondary Weapon Damage Dice": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Secondary Weapon Damage Type": {
+    "type": "Choice (List/Combo)",
+    "value": "phy",
+    "default": "",
+    "flags": 131072,
+    "max_length": null
+  },
+  "doc_0_Secondary Weapon Name": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Hope1": {
+    "type": "Button/Checkbox",
+    "value": "/doc_0_Hope1",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Hope2": {
+    "type": "Button/Checkbox",
+    "value": "/doc_0_Hope2",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Hope3": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Hope4": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Hope5": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Hope6": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Secondary Weapon Feature": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_0_Experience Level 1": {
+    "type": "Text",
+    "value": "2",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Experience 1": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Active Armor Name": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Armor Major Theshold": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Armor Severe Theshold": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Active Base Score": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Experience Level 2": {
+    "type": "Text",
+    "value": "2",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Experience 2": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Active Armor Feature": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_0_Experience Level 3": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Experience 3": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Experience Level 4": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Experience 4": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Experience Level 5": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Experience 5": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Inventory 1": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_0_Inventory 2": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_0_Handfulls1": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Handfulls2": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Handfulls3": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Handfulls4": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Handfulls5": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Handfulls6": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Handfulls7": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Handfulls8": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Handfulls9": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Chest": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Bags8": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Bags3": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Bags4": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Bags5": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Bags6": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Bags7": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Bags1": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Bags2": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Bags9": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Rally Die Once Per Session": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Inventory Weapon 1 Burden2": {
+    "type": "Button/Checkbox",
+    "value": "/doc_0_Inventory Weapon 1 Burden2",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Inventory Weapon 1 Burden1": {
+    "type": "Button/Checkbox",
+    "value": "/doc_0_Inventory Weapon 1 Burden1",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Inventory Weapon1 Primary/Secondary": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 33603584,
+    "max_length": null
+  },
+  "doc_0_Inventory Weapon 1 Name": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Inventory Weapon 1 Trait": {
+    "type": "Choice (List/Combo)",
+    "value": "Agility",
+    "default": "",
+    "flags": 131072,
+    "max_length": null
+  },
+  "doc_0_Inventory Weapon 1 Range": {
+    "type": "Choice (List/Combo)",
+    "value": "Melee",
+    "default": "",
+    "flags": 131072,
+    "max_length": null
+  },
+  "doc_0_Inventory Weapon 1 Damage Dice": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Inventory Weapon 1 Damage Type": {
+    "type": "Choice (List/Combo)",
+    "value": "phy",
+    "default": "",
+    "flags": 131072,
+    "max_length": null
+  },
+  "doc_0_Inventory Weapon 1 Feature": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_0_Rally Die": {
+    "type": "Choice (List/Combo)",
+    "value": "d6",
+    "default": "",
+    "flags": 131072,
+    "max_length": null
+  },
+  "doc_0_Free Text": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_0_Inventory Weapon 2 Burden2": {
+    "type": "Button/Checkbox",
+    "value": "/doc_0_Inventory Weapon 2 Burden2",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Inventory Weapon 2 Burden1": {
+    "type": "Button/Checkbox",
+    "value": "/doc_0_Inventory Weapon 2 Burden1",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Inventory Weapon2 Primary/Secondary": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 33603584,
+    "max_length": null
+  },
+  "doc_0_Inventory Weapon 2 Name": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Inventory Weapon 2 Trait": {
+    "type": "Choice (List/Combo)",
+    "value": "Agility",
+    "default": "",
+    "flags": 131072,
+    "max_length": null
+  },
+  "doc_0_Inventory Weapon 2 Range": {
+    "type": "Choice (List/Combo)",
+    "value": "Melee",
+    "default": "",
+    "flags": 131072,
+    "max_length": null
+  },
+  "doc_0_Inventory Weapon 2 Damage Dice": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Inventory Weapon 2 Damage Type": {
+    "type": "Choice (List/Combo)",
+    "value": "phy",
+    "default": "",
+    "flags": 131072,
+    "max_length": null
+  },
+  "doc_0_Inventory Weapon 2 Feature Description": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_1_text_3jydv": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_2wist": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_textarea_11mcss": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_1_text_4oxd": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_5xwvv": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_6dfva": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_textarea_13jvys": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_1_textarea_12pomc": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_1_text_14xep": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_15ajjb": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_textarea_137zfzb": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_1_text_57ivyy": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_29pyos": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_43ay": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_textarea_135ryvu": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_1_text_71yge": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_16dowp": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_30hxhg": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_44xk": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_58aafq": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_radio_group_89bvde": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 33603584,
+    "max_length": null
+  },
+  "doc_1_text_74jfda": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_75iurw": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_textarea_136odet": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_1_textarea_150otga": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_1_text_72vbxg": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_17ykan": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_31cqzd": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_59vphh": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_45tdhb": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_radio_group_80ajkl": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 33603584,
+    "max_length": null
+  },
+  "doc_1_text_78ehtx": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_76bdah": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_textarea_138yget": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_1_textarea_151sdqt": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_1_text_18mrlw": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_73cmks": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_32esro": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_46enaa": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_60yjqt": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_radio_group_84ewzn": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 33603584,
+    "max_length": null
+  },
+  "doc_1_textarea_139yskd": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_1_text_77xgql": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_79kltr": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_textarea_152wpak": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_1_text_28nril": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_19zbso": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_33cqkx": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_48egdu": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_62tano": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_34rfom": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_47wzhm": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_61xzhn": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_textarea_141ofzr": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_1_textarea_140rulm": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_1_text_27thhn": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_20abhr": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_35nvmn": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_36zhnp": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_49ybii": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_63ntzv": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_50aoan": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_64bzoq": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_textarea_142dimv": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_1_textarea_143ncej": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_1_text_26gsum": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_21mkvw": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_66stgu": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_37lhlu": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_51ajjv": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_65rich": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_38ffeh": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_52gqxy": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_textarea_145qgks": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_1_textarea_144mmoc": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_1_text_22wpjc": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_25xisa": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_40zspn": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_53tggg": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_67sfrw": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_39bl": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_54cktq": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_68nspm": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_textarea_146pfim": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_1_textarea_147whkv": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_1_text_24zuxe": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_23kwd": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_41bafe": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_56ukac": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_69maeu": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_42kkrz": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_55zhph": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_text_70uqni": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_1_textarea_149kxgw": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_1_textarea_148rcng": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_0_Background Question1": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_0_Connection1": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_0_Background Question2": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_0_Connection2": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_0_Background Question3": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_0_Connection3": {
+    "type": "Text",
+    "value": "",
+    "default": "",
+    "flags": 4096,
+    "max_length": null
+  },
+  "doc_0_Character Advancement1": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement2": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement3": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement11": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement12": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement13": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement24": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement25": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement26": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement4": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement5": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement14": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement15": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement27": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement28": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement6": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement7": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement16": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement17": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement29": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement30": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement18": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement8": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement31": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement9": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement19": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement32": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement33": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement20": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement10": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement34": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement21": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement35": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement22": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement23": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  },
+  "doc_0_Character Advancement36": {
+    "type": "Button/Checkbox",
+    "value": "",
+    "default": "",
+    "flags": 0,
+    "max_length": null
+  }
+}
