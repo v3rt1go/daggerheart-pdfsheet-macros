@@ -1,0 +1,59 @@
+{
+  "id": "daggerheart-sync",
+  "title": "Daggerheart PDF Sync",
+  "description": "Synchronizes PDF character sheet data with actor flags for the Daggerheart RPG system. Provides automatic data extraction from PDF-Pager sheets and caching for improved performance.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "authors": [
+    {
+      "name": "Daggerheart Community",
+      "discord": "foundry-daggerheart"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "pdf-pager",
+        "type": "module",
+        "compatibility": {
+          "minimum": "0.6.0"
+        }
+      }
+    ],
+    "recommends": [
+      {
+        "id": "dice-so-nice",
+        "type": "module"
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "socket": true,
+  "flags": {
+    "hotReload": {
+      "extensions": ["css", "hbs", "json"],
+      "paths": ["styles", "templates", "lang"]
+    }
+  },
+  "manifest": "https://raw.githubusercontent.com/v3rt1go/foundry-macros/daggerheart-sync-module/module.json",
+  "download": "https://github.com/v3rt1go/foundry-macros/archive/daggerheart-sync-module.zip",
+  "url": "https://github.com/v3rt1go/foundry-macros/tree/daggerheart-sync-module",
+  "bugs": "https://github.com/v3rt1go/foundry-macros/issues",
+  "changelog": "https://github.com/v3rt1go/foundry-macros/releases"
+}

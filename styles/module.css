@@ -1,0 +1,165 @@
+/* Daggerheart PDF Sync Module Styles */
+
+/* Actor sheet header buttons */
+.sheet-header .daggerheart-sync,
+.sheet-header .daggerheart-view-data {
+  background: linear-gradient(135deg, #3498db, #2980b9);
+  border: 1px solid #2980b9;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.sheet-header .daggerheart-sync:hover,
+.sheet-header .daggerheart-view-data:hover {
+  background: linear-gradient(135deg, #2980b9, #1f5582);
+  box-shadow: 0 2px 8px rgba(52, 152, 219, 0.3);
+  transform: translateY(-1px);
+}
+
+.sheet-header .daggerheart-view-data {
+  background: linear-gradient(135deg, #e67e22, #d35400);
+  border-color: #d35400;
+}
+
+.sheet-header .daggerheart-view-data:hover {
+  background: linear-gradient(135deg, #d35400, #a0390a);
+  box-shadow: 0 2px 8px rgba(230, 126, 34, 0.3);
+}
+
+/* Sync status indicators */
+.daggerheart-sync-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 6px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.daggerheart-sync-status.fresh {
+  background: rgba(46, 204, 113, 0.2);
+  color: #2ecc71;
+  border: 1px solid #2ecc71;
+}
+
+.daggerheart-sync-status.stale {
+  background: rgba(231, 76, 60, 0.2);
+  color: #e74c3c;
+  border: 1px solid #e74c3c;
+}
+
+.daggerheart-sync-status.syncing {
+  background: rgba(52, 152, 219, 0.2);
+  color: #3498db;
+  border: 1px solid #3498db;
+}
+
+/* Notification styling */
+.notification.daggerheart-sync {
+  border-left: 4px solid #3498db;
+  background: linear-gradient(90deg, rgba(52, 152, 219, 0.1), transparent);
+}
+
+/* Settings form enhancements */
+.module-settings .daggerheart-sync .form-group {
+  border-left: 3px solid #3498db;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+
+/* Dialog enhancements for mobile responsiveness */
+@media (max-width: 768px) {
+  .dh-sync-container {
+    padding: 15px !important;
+  }
+  
+  .dh-sync-grid {
+    grid-template-columns: 1fr !important;
+  }
+  
+  .dh-sync-item {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 4px;
+  }
+  
+  .dh-sync-key {
+    margin-right: 0 !important;
+  }
+  
+  .dh-sync-value {
+    text-align: left !important;
+  }
+}
+
+/* Loading animation */
+.daggerheart-sync-loading {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #bdc3c7;
+  border-radius: 50%;
+  border-top-color: #3498db;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Context menu styling */
+.context-menu .daggerheart-sync-option {
+  background: linear-gradient(90deg, rgba(52, 152, 219, 0.1), transparent);
+  border-left: 3px solid #3498db;
+}
+
+.context-menu .daggerheart-sync-option:hover {
+  background: linear-gradient(90deg, rgba(52, 152, 219, 0.2), rgba(52, 152, 219, 0.05));
+}
+
+/* Settings panel specific styles */
+.daggerheart-sync-settings {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.daggerheart-sync-settings h3 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+/* Tooltip styling */
+.daggerheart-sync-tooltip {
+  background: rgba(44, 62, 80, 0.95);
+  color: #ecf0f1;
+  border: 1px solid #34495e;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 12px;
+  max-width: 250px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Error state styling */
+.daggerheart-sync-error {
+  background: rgba(231, 76, 60, 0.1);
+  border: 1px solid #e74c3c;
+  border-radius: 4px;
+  padding: 10px;
+  color: #c0392b;
+  margin: 10px 0;
+}
+
+.daggerheart-sync-error::before {
+  content: "⚠️ ";
+  font-weight: bold;
+}

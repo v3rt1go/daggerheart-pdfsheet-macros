@@ -1,213 +1,281 @@
-# Daggerheart PDF Character Sheet Macros
+# Daggerheart PDF Sync Module
 
-A comprehensive collection of macros for the Daggerheart RPG system, designed to work seamlessly with PDF character sheets in Foundry VTT using the PDF-Pager module.
+A comprehensive Foundry VTT module for synchronizing PDF character sheet data with actor flags for the Daggerheart RPG system. Provides automatic data extraction from PDF-Pager sheets and intelligent caching for improved performance.
 
-## Overview
+## Quick Install
 
-This project provides a complete macro suite for playing Daggerheart in Foundry VTT, featuring automated dice rolling with Hope/Fear mechanics, weapon attacks, attribute rolls, and elegant UI dialogs. All macros are designed to integrate with PDF character sheets using field mapping through the PDF-Pager module.
+**Manifest URL**: `https://raw.githubusercontent.com/v3rt1go/foundry-macros/daggerheart-sync-module/module.json`
+
+Copy this URL into Foundry's "Install Module" dialog to install directly.
 
 ## Features
 
-### ⚔️ Weapon Attack Macros
-- **Primary Weapon Attack**: Fully automated weapon attacks with damage calculation
-- **Secondary Weapon Attack**: Complete secondary weapon support
-- **Compact UI**: Space-efficient dialog and chat layouts
-- **Professional Design**: Clean, themed interface with gradient backgrounds
-- **Automatic PDF Integration**: Reads weapon stats directly from character sheets
+### 🔄 Automatic PDF Data Sync
+- Extracts character data from PDF sheets using PDF-Pager
+- Stores data in proper module flag scope for reliability
+- Intelligent caching with configurable refresh intervals
+- Real-time sync status indicators
 
-### 🎲 Attribute Roll Macros
-- Individual macros for all six core attributes:
-  - Agility Roll
-  - Finesse Roll
-  - Instinct Roll
-  - Knowledge Roll
-  - Presence Roll
-  - Strength Roll
-- Automated modifier calculation from character sheets
-- Hope/Fear dice mechanics with custom styling
+### 📊 Comprehensive Data Extraction
+- **Character Info**: Name, ancestry, community, class, subclass, level
+- **Attributes**: All six core attributes with values and modifiers
+- **Resources**: Hit points, stress, hope, armor score
+- **Weapons**: Primary and secondary weapon details
+- **Progression**: Proficiency levels and experience points
 
-### 🎯 Duality Dice System
-- Custom Hope and Fear dice implementation
-- Automatic critical success detection (matching dice)
-- Visual dice styling for Dice So Nice module
-- Result banners with appropriate effects
+### 🎨 Professional UI
+- Clean, themed dialogs with gradient backgrounds
+- Mobile-responsive design
+- Integrated actor sheet buttons
+- Rich data visualization with status indicators
 
-### 📋 Character Sheets
-High-quality PDF character sheets for all classes:
-- Bard
-- Druid
-- Guardian
-- Ranger
-- Rogue
-- Seraph
-- Sorcerer
-- Warrior
-- Wizard
-- Generic Character Sheet
+### ⚙️ Configurable Settings
+- Auto-sync toggle
+- Configurable sync intervals (1-30 minutes)
+- Debug mode for troubleshooting
+- Per-world configuration
+
+### 🔗 Developer API
+- Complete JavaScript API for other modules
+- Socket support for multiplayer synchronization
+- Event hooks for custom integrations
 
 ## Installation
 
 ### Prerequisites
-1. **Foundry VTT** (v10 or higher recommended)
-2. **PDF-Pager Module** - Required for PDF character sheet integration
-3. **Dice So Nice Module** (optional) - For enhanced dice animations
+- Foundry VTT v12+ (tested with v13)
+- **PDF-Pager module** (required dependency)
+- Daggerheart PDF character sheets
 
-### Setup Instructions
+### Module Installation
 
-1. **Download the Macros**
-   - Clone or download this repository
-   - Extract to your desired location
+#### Option 1: Direct Install (Recommended)
+1. **Open Foundry VTT** and go to your world
+2. **Click "Add-on Modules"** in the sidebar
+3. **Click "Install Module"** button
+4. **Paste this manifest URL**: 
+   ```
+   https://raw.githubusercontent.com/v3rt1go/foundry-macros/daggerheart-sync-module/module.json
+   ```
+5. **Click "Install"** and wait for download to complete
+6. **Enable the module** in your world's module list
+7. **Restart your world** for full functionality
 
-2. **Import Character Sheets**
-   - Copy the character sheets from the `character-sheets/` folder
-   - Import them into Foundry VTT using the PDF-Pager module
-   - Configure field mappings using the provided `bard_pdf_fields.json` as reference
+#### Option 2: Manual Installation
+1. **Download**: Go to [Releases](https://github.com/v3rt1go/foundry-macros/releases) and download the latest module zip
+2. **Extract**: Unzip to your Foundry `Data/modules/` directory as `daggerheart-sync/`
+3. **Enable**: Find "Daggerheart PDF Sync" in your world's Add-on Modules and enable it
+4. **Restart**: Restart your world
 
-3. **Install Macros**
-   - Import the macro files into your Foundry VTT world
-   - Place them in your macro toolbar for easy access
-
-4. **Configure PDF-Pager**
-   - Use the included `pdf-pager/` module for advanced PDF functionality
-   - Set up field mappings for character data extraction
+#### Initial Configuration
+After installation:
+1. **Go to Settings** → **Configure Settings** → **Module Settings**
+2. **Find "Daggerheart PDF Sync"** section
+3. **Configure options**:
+   - ✅ **Automatic Sync**: Enable for seamless operation
+   - ⏱️ **Sync Interval**: Set to 5 minutes (default recommended)
+   - 🐛 **Debug Mode**: Enable only for troubleshooting
 
 ## Usage
 
-### Weapon Attacks
+### Getting Started
 
-1. **Select Your Character**: Ensure you have a character with a PDF sheet selected
-2. **Run the Macro**: Click the Primary or Secondary Weapon Attack macro
-3. **Configure Your Roll**:
-   - Choose Hope and Fear die sizes (d12 or d20)
-   - Set advantage/disadvantage dice
-   - Adjust trait modifiers
-4. **Execute**: Click the attack button to roll and see results in chat
+#### 1. Setup Your Character
+1. **Create or open an Actor** in Foundry
+2. **Assign a PDF character sheet** using PDF-Pager module
+3. **Fill out the PDF** with your character data
+4. **Click the 🔄 Sync PDF button** in the actor sheet header
 
-### Attribute Rolls
+#### 2. Using the Module
+Once installed, character actor sheets will have two new buttons in the header:
+- **🔄 Sync PDF**: Manually sync PDF data to actor flags
+- **👁️ View Synced Data**: Display all synced data in a formatted dialog
 
-1. **Select Character**: Choose your character token or sheet
-2. **Run Attribute Macro**: Click any of the six attribute roll macros
-3. **Set Parameters**:
-   - Choose die sizes for Hope/Fear dice
-   - Add advantage/disadvantage
-   - Apply situational modifiers
-4. **Roll**: Execute to see results with automatic success/failure detection
+#### 3. Automatic Operation
+With auto-sync enabled (default):
+- **Data syncs automatically** when character sheets are opened
+- **Background syncing** occurs at your configured interval
+- **Smart caching** prevents unnecessary re-syncing
+- **Real-time status** shows if data is fresh or stale
 
-### Character Sheet Integration
+#### 4. Viewing Your Data
+Click **👁️ View Synced Data** to see:
+- ✅ **Complete character information** in organized sections
+- 🕒 **Last sync timestamp** and freshness status
+- 🔄 **Refresh button** to force immediate sync
+- 📋 **Console logging** for debugging
+- 🗑️ **Clear data** option to reset cache
 
-The macros automatically read the following data from your PDF character sheets:
-- **Weapon Stats**: Name, trait, range, damage, type, features
-- **Attribute Values**: All six core attributes with modifiers
-- **Proficiency Levels**: Automatic detection of highest marked proficiency
-- **Character Details**: Name and other relevant information
+### Advanced Usage
 
-## Macro Features
+#### Working with Macros
+The module works seamlessly with your existing Daggerheart macros:
 
-### Dialog Interface
-- **Compact Design**: Space-efficient 2-column layout
-- **Visual Clarity**: Emoji icons and clear labeling
-- **Responsive**: Automatically adjusts to content
-- **Professional Styling**: Dark theme with gradient backgrounds
+```javascript
+// In your weapon attack macros, use cached data instead of PDF lookups
+const syncedData = game.modules.get('daggerheart-sync').api.sync.getSyncedData(actor);
 
-### Chat Output
-- **Rich Formatting**: Color-coded results with visual indicators
-- **Compact Cards**: Efficient space usage in chat
-- **Clear Results**: Easy-to-read damage, effects, and outcomes
-- **Dice Integration**: Works with Dice So Nice for 3D dice rolling
+// Get weapon info from cache (much faster than PDF queries)
+const weaponName = syncedData?.weapons?.primary?.name || "Unknown Weapon";
+const weaponTrait = syncedData?.weapons?.primary?.trait || "Agility";
+const modifier = syncedData?.attributes?.agility?.numericModifier || 0;
 
-### Automation Features
-- **Auto-Calculation**: Damage dice based on proficiency and weapon stats
-- **Smart Defaults**: Reasonable fallbacks when data is missing
-- **Error Handling**: Graceful degradation with missing character data
-- **Consistent Styling**: Unified visual theme across all macros
-
-## File Structure
-
-```
-foundry-macros/
-├── character-sheets/          # PDF character sheets for all classes
-├── daggerheart-attribute-macros/  # Individual attribute roll macros
-├── daggerheart-weapon-attacks/    # Primary and secondary weapon macros
-├── pdf-pager/                 # PDF-Pager module for sheet integration
-├── bard_pdf_fields.json       # Example field mapping configuration
-├── daggerheart-duality-dice.js    # Core dice rolling system
-├── daggerheart-roller-macro.js    # General purpose roller
-└── README.md                  # This file
+// Use this data in your existing attack macros
+console.log(`Attacking with ${weaponName} using ${weaponTrait} (${modifier})`);
 ```
 
-## Customization
+#### Manual API Usage
+```javascript
+// Sync specific actor
+const actor = game.actors.getName("Character Name");
+await game.modules.get('daggerheart-sync').api.sync.syncActor(actor);
 
-### Modifying Macros
-- Edit the JavaScript files to customize behavior
-- Adjust CSS styling in the dialog templates
-- Modify dice appearance for Dice So Nice integration
+// Get all synced data
+const data = game.modules.get('daggerheart-sync').api.sync.getSyncedData(actor);
 
-### Adding New Weapons
-- Update character sheet PDF fields
-- Ensure proper field mapping in PDF-Pager
-- Macros will automatically detect new weapon data
+// Get specific data with dot notation
+const weaponName = game.modules.get('daggerheart-sync').api.sync.getSyncedData(actor, "weapons.primary.name");
+const agilityMod = game.modules.get('daggerheart-sync').api.sync.getSyncedData(actor, "attributes.agility.numericModifier");
 
-### Custom Styling
-- Modify CSS classes in macro files
-- Adjust colors, fonts, and layout
-- Customize dice appearance and animations
+// Check sync status
+const status = game.modules.get('daggerheart-sync').api.sync.getSyncStatus(actor);
+console.log(`Data last synced: ${status.lastSync}, needs refresh: ${status.needsRefresh}`);
+```
+
+## Configuration
+
+### Module Settings
+
+| Setting | Default | Description |
+|---------|---------|-------------|
+| Automatic Sync | Enabled | Auto-sync when sheets open and at intervals |
+| Sync Interval | 5 minutes | How often to check for stale data |
+| Debug Mode | Disabled | Enable detailed console logging |
+
+### PDF Field Mapping
+The module expects standard PDF field names:
+- Character: `doc_0_Character Name`, `doc_0_Ancestry`, etc.
+- Attributes: `doc_0_Strength Value`, `doc_0_Agility Value`, etc.
+- Weapons: `doc_0_Primary Weapon Name`, `doc_0_Secondary Weapon Trait`, etc.
+- Resources: `doc_0_Current Hit Points`, `doc_0_Hope`, etc.
+
+## Developer API
+
+### Core Functions
+
+```javascript
+const api = game.modules.get('daggerheart-sync').api;
+
+// Sync operations
+await api.sync.syncActor(actor, { silent: true });
+await api.sync.ensureFreshData(actor);
+await api.sync.clearSyncedData(actor);
+
+// Data access
+const data = api.sync.getSyncedData(actor);
+const weaponData = api.sync.getSyncedData(actor, "weapons.primary");
+const status = api.sync.getSyncStatus(actor);
+
+// UI operations
+api.ui.showSyncedData(actor);
+```
+
+### Event Hooks
+
+```javascript
+// Listen for sync completion
+Hooks.on('daggerheartSyncComplete', (actor, data) => {
+  console.log(`Synced data for ${actor.name}`, data);
+});
+
+// Listen for sync errors
+Hooks.on('daggerheartSyncError', (actor, error) => {
+  console.error(`Sync failed for ${actor.name}`, error);
+});
+```
+
+### Socket Events
+```javascript
+// Listen for multiplayer sync updates
+game.socket.on('module.daggerheart-sync', (data) => {
+  if (data.type === 'syncUpdate') {
+    // Handle sync update from another user
+  }
+});
+```
 
 ## Troubleshooting
 
 ### Common Issues
 
-**Macro Not Reading Character Data**
-- Ensure PDF-Pager module is installed and active
-- Verify character sheet field mappings
-- Check that a character is properly selected
+**"PDF-Pager module not found"**
+- Ensure PDF-Pager module is installed and enabled
+- Check module compatibility versions
 
-**Dice Not Appearing**
-- Confirm Dice So Nice module is installed (optional)
-- Check that dice expressions are valid
-- Ensure character has required attribute values
+**"Flag scope not valid"**
+- This error should not occur with the module (unlike the original macro)
+- If it does, ensure the module is properly enabled
 
-**Dialog Not Displaying Properly**
-- Verify Foundry VTT version compatibility
-- Check browser console for JavaScript errors
-- Ensure all required character data is present
+**Data not syncing**
+- Enable Debug Mode in settings
+- Check browser console (F12) for detailed logs
+- Verify PDF field names match expected format
+- Use "Log PDF Fields" button in actor sheets to identify field names
 
-## Contributing
+**Performance issues**
+- Increase sync interval in settings
+- Disable auto-sync for large campaigns
+- Use manual sync only when needed
 
-Feel free to contribute improvements, bug fixes, or new features:
-1. Fork the repository
-2. Create a feature branch
-3. Submit a pull request with your changes
+### Debug Mode
+Enable debug mode in module settings to see:
+- Detailed sync operations
+- PDF field extraction results
+- Performance timing information
+- Error stack traces
+
+## Integration with Other Macros
+
+The synced data is perfect for use with the existing Daggerheart macro collection:
+
+```javascript
+// Enhanced weapon attack macro
+const syncedData = game.modules.get('daggerheart-sync').api.sync.getSyncedData(actor);
+const weapon = syncedData?.weapons?.primary;
+const attribute = syncedData?.attributes?.agility;
+
+if (weapon && attribute) {
+  // Use cached data instead of PDF lookups
+  const weaponName = weapon.name;
+  const modifier = attribute.numericModifier;
+}
+```
+
+## Changelog
+
+### Version 1.0.0
+- Initial release
+- Full PDF data extraction and caching
+- Actor sheet integration
+- Configurable auto-sync
+- Multiplayer support via sockets
+- Comprehensive UI with data viewer
+- Developer API and documentation
 
 ## License
 
-This project is designed for use with the Daggerheart RPG system. Please respect all applicable licenses and terms of use.
+This module is designed for use with the Daggerheart RPG system. Please respect all applicable licenses and terms of use.
 
----
+## Contributing
 
-## TODO List
+Contributions are welcome! Please:
+1. Fork the repository
+2. Create a feature branch
+3. Submit a pull request with detailed description
 
-### Priority Improvements
+## Support
 
-- [ ] **Deal with criticals for weapon attacks** - Implement proper critical hit mechanics and special effects
-- [ ] **Display ancestry card to chat** - Send ancestry information and abilities to chat
-- [ ] **Display community card to chat** - Send community background details to chat
-- [ ] **Display subclass card to chat** - Send subclass features and abilities to chat
-- [ ] **Display type card to chat** - Send character type information to chat
-- [ ] **Display domain card to chat** - Send domain-specific information to chat
-- [ ] **Send hope feature to chat** - Create macro to display hope features in chat
-- [ ] **Send class feature to chat** - Create macro to display class features in chat
-- [ ] **Add support for class-specific sheets for class features** - Implement per-class feature templates
-- [ ] **Add support for class-specific sheets for hope features** - Implement per-class hope feature templates
-
-### Future Enhancements
-
-- [ ] Spell casting macros for magical classes
-- [ ] Equipment management macros
-- [ ] Status effect tracking
-- [ ] Experience point calculation
-- [ ] Inventory management integration
-- [ ] Party coordination features
-- [ ] GM utility macros
-- [ ] Combat automation tools
-- [ ] Character advancement tracking
-- [ ] Session management utilities
+For issues and feature requests:
+- Check the troubleshooting section above
+- Enable debug mode for detailed logging
+- Report issues with console logs and reproduction steps
