@@ -1,0 +1,95 @@
+{
+  "DAGGERHEART_SYNC": {
+    "ModuleTitle": "Daggerheart PDF Sync",
+    
+    "Settings": {
+      "AutoSync": {
+        "Name": "Automatic Sync",
+        "Hint": "Automatically sync PDF data when character sheets are opened or at regular intervals."
+      },
+      "SyncInterval": {
+        "Name": "Sync Interval (minutes)",
+        "Hint": "How often to check for and perform automatic syncing (in minutes). Minimum 1 minute, maximum 30 minutes."
+      },
+      "DebugMode": {
+        "Name": "Debug Mode",
+        "Hint": "Enable debug logging for troubleshooting sync issues."
+      }
+    },
+    
+    "Buttons": {
+      "Sync": "Sync PDF",
+      "ViewData": "View Synced Data",
+      "Close": "Close",
+      "Refresh": "Refresh Data",
+      "LogToConsole": "Log to Console",
+      "ClearData": "Clear Data"
+    },
+    
+    "Labels": {
+      "SyncedData": "Synced Character Data",
+      "LastSync": "Last Synced",
+      "Status": "Status"
+    },
+    
+    "Sections": {
+      "Character": "Character Information",
+      "Attributes": "Attributes",
+      "Resources": "Resources",
+      "Weapons": "Weapons",
+      "Other": "Other Data"
+    },
+    
+    "Fields": {
+      "Name": "Name",
+      "Ancestry": "Ancestry",
+      "Community": "Community",
+      "Class": "Class",
+      "Subclass": "Subclass",
+      "Level": "Level",
+      "HitPoints": "Hit Points",
+      "Stress": "Stress",
+      "Hope": "Hope",
+      "Armor": "Armor Score",
+      "ProficiencyLevel": "Proficiency Level",
+      "Experience": "Experience"
+    },
+    
+    "Status": {
+      "Fresh": "Data is fresh",
+      "NeedsRefresh": "Data needs refresh"
+    },
+    
+    "Warnings": {
+      "NoActor": "No actor selected! Please select a character token or open a character sheet.",
+      "NoSyncedData": "No synced data found for this character. Run sync first!"
+    },
+    
+    "Errors": {
+      "NoPDFPager": "PDF-Pager module not found! This module requires PDF-Pager to function.",
+      "SyncFailed": "Failed to sync PDF data! Check console for details."
+    },
+    
+    "Info": {
+      "DataFresh": "Character data is already up to date.",
+      "SyncComplete": "PDF data synced successfully for {name}.",
+      "DataCleared": "Synced data cleared for {name}.",
+      "LoggedToConsole": "Data has been logged to the browser console (F12).",
+      "UseModuleSettings": "Use the Module Settings to configure Daggerheart PDF Sync options."
+    },
+    
+    "Dialog": {
+      "NoData": {
+        "Title": "No Synced Data",
+        "Content": "This character has no synced data. Would you like to sync PDF data now?"
+      },
+      "ViewData": {
+        "Title": "Synced Data: {name}"
+      },
+      "ClearData": {
+        "Title": "Clear Synced Data",
+        "Content": "Are you sure you want to clear all synced data for this character? This action cannot be undone."
+      }
+    }
+  }
+}
