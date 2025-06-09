@@ -51,9 +51,9 @@
       "paths": ["styles", "templates", "lang"]
     }
   },
-  "manifest": "https://raw.githubusercontent.com/v3rt1go/foundry-macros/daggerheart-sync-module/module.json",
-  "download": "https://github.com/v3rt1go/foundry-macros/archive/daggerheart-sync-module.zip",
-  "url": "https://github.com/v3rt1go/foundry-macros/tree/daggerheart-sync-module",
-  "bugs": "https://github.com/v3rt1go/foundry-macros/issues",
-  "changelog": "https://github.com/v3rt1go/foundry-macros/releases"
+  "manifest": "https://raw.githubusercontent.com/v3rt1go/daggerheart-pdfsheet-macros/daggerheart-sync-module/module.json",
+  "download": "https://github.com/v3rt1go/daggerheart-pdfsheet-macros/archive/refs/heads/daggerheart-sync-module.zip",
+  "url": "https://github.com/v3rt1go/daggerheart-pdfsheet-macros/tree/daggerheart-sync-module",
+  "bugs": "https://github.com/v3rt1go/daggerheart-pdfsheet-macros/issues",
+  "changelog": "https://github.com/v3rt1go/daggerheart-pdfsheet-macros/releases"
 }

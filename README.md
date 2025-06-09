@@ -4,7 +4,7 @@ A comprehensive Foundry VTT module for synchronizing PDF character sheet data wi
 
 ## Quick Install
 
-**Manifest URL**: `https://raw.githubusercontent.com/v3rt1go/foundry-macros/daggerheart-sync-module/module.json`
+**Manifest URL**: `https://raw.githubusercontent.com/v3rt1go/daggerheart-pdfsheet-macros/daggerheart-sync-module/module.json`
 
 Copy this URL into Foundry's "Install Module" dialog to install directly.
 
@@ -55,14 +55,14 @@ Copy this URL into Foundry's "Install Module" dialog to install directly.
 3. **Click "Install Module"** button
 4. **Paste this manifest URL**: 
    ```
-   https://raw.githubusercontent.com/v3rt1go/foundry-macros/daggerheart-sync-module/module.json
+   https://raw.githubusercontent.com/v3rt1go/daggerheart-pdfsheet-macros/daggerheart-sync-module/module.json
    ```
 5. **Click "Install"** and wait for download to complete
 6. **Enable the module** in your world's module list
 7. **Restart your world** for full functionality
 
 #### Option 2: Manual Installation
-1. **Download**: Go to [Releases](https://github.com/v3rt1go/foundry-macros/releases) and download the latest module zip
+1. **Download**: Go to [Releases](https://github.com/v3rt1go/daggerheart-pdfsheet-macros/releases) and download the latest module zip
 2. **Extract**: Unzip to your Foundry `Data/modules/` directory as `daggerheart-sync/`
 3. **Enable**: Find "Daggerheart PDF Sync" in your world's Add-on Modules and enable it
 4. **Restart**: Restart your world
